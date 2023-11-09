@@ -1,0 +1,28 @@
+Q1:
+Django Rest Framework's uses basic and session-based authentication by default.
+The authentication scheme is managed in the settings configurations where you 
+can specify which authentications to use.
+
+Q2:
+The authentication scheme used by httpie when querying with the -a or --auth 
+option flag uses basic authentication.
+
+Q3:
+Differences between session authentication and token authentication:
+- session authentication stores session data on the server while token 
+    authentication does not
+- session authentication relies on cookies with each request, token 
+    authentication is typically included in the request header
+Some improvements of token authentication over basic authentication are that it
+is more secure, convenient and safer in that the token will expire.
+
+Q4:
+When clicking "Log in with Google":
+- bitbucket.org redirects you to Google
+- log in on Google and grant permission
+- Google provides bitbucket.org with an authorization grant
+- bitbucket.org exchanges the grant for an access token
+- bitbucket.org can now access your Google resources on your behalf
+
+Q5:
+https://github.com/ale2cs/authentication-lab
